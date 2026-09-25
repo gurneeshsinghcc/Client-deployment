@@ -53,7 +53,7 @@ function App() {
               onChange={(event) => setDescription(event.target.value)}
               placeholder="What does it involve?"
               required
-            />
+            
           </label>
           <button className="add-button" type="submit" disabled={isSaving}>
             {isSaving ? "Adding..." : "Add todo"}
